@@ -23,6 +23,11 @@ public class TestResourceController {
     return "passed";
 }
 
+@GetMapping("/testing jenkins")
+
+    public  String jenkins(){
+        return "jenkins";
+}
 
 
 
